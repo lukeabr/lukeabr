@@ -279,7 +279,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
+    padding-top: 300px;
     padding-bottom: 50px;
 }
 
@@ -302,16 +302,16 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
+        padding-top: 550px;
         padding-bottom: 200px;
     }
 
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
-        font-size: 40px;
+        font-size: 75px;
         font-style: italic;
-        line-height: 40px;
+        line-height: 75px;
     }
 
     header .intro-text .intro-heading {
@@ -325,7 +325,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2.section-heading {
@@ -341,12 +341,6 @@ section h3.section-subheading {
     font-size: 16px;
     font-style: italic;
     font-weight: 400;
-}
-
-@media(min-width:768px) {
-    section {
-        padding: 150px 0;
-    }
 }
 
 .service-heading {
@@ -864,4 +858,24 @@ img::-moz-selection {
 
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
+}
+
+audio {
+    width: 300px;
+}
+
+h4.song-title {
+    display: inline-block;
+    width: 300px;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.media-footer {
+    width: 300px;
+    display: inline-block;
+}
+
+.song {
+    margin-bottom: 50px;
 }
